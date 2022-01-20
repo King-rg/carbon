@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by TinyCAD 3.00.00 develop
+If you wish to view this file go to https://www.tinycad.net to
+download the executable.-->
+<TinyCADSheets>
+	<TinyCAD>
+		<NAME>Sheet 1</NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='4'>
+			<HEIGHT>-3</HEIGHT>
+			<WIDTH>2</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='0'>
+			<INDEX>-1</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='1'>CONTACT-POWER</NAME>
+			<REF type='1'>C?</REF>
+			<DESCRIPTION>Contact arrow power</DESCRIPTION>
+			<PPP>1</PPP>
+			<GUID></GUID>
+			<REF_POINT power='0' part='0' pos='24.00000,24.00000'/>
+			<TinyCAD>
+				<POLYGON pos='20.40000,20.00000' style='2' fill='0' polygon='0'>
+					<POINT pos='0.00000,2.00000' arc='0'/>
+					<POINT pos='3.00000,2.00000' arc='0'/>
+					<POINT pos='1.60000,0.00000' arc='0'/>
+					<POINT pos='0.00000,2.00000' arc='0'/>
+				</POLYGON>
+				<PIN pos='22.00000,24.00000' which='0' elec='0' direction='0' part='0' number='1' show='0' length='10' number_pos='0' centre_name='0'></PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<COLOR_WIRE>FF0000</COLOR_WIRE>
+			<COLOR_BUS>0000FF</COLOR_BUS>
+			<COLOR_JUNCTION>000000</COLOR_JUNCTION>
+			<COLOR_NOCONNECT>000000</COLOR_NOCONNECT>
+			<COLOR_LABEL>208000</COLOR_LABEL>
+			<COLOR_POWER>000000</COLOR_POWER>
+			<COLOR_PIN>4040C0</COLOR_PIN>
+			<COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
+			<COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
+			<COLOR_NOTETEXT_FILL>AFFFFF</COLOR_NOTETEXT_FILL>
+			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
+			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
+		</OPTIONS>
+		<RECTANGLE a='12.00000,8.00000' b='220.00000,140.00000' style='2' fill='0'/>
+		<RECTANGLE a='12.00000,8.00000' b='220.00000,12.00000' style='2' fill='0'/>
+		<TEXT pos='118.00000,12.00000' direction='3' font='3' color='000000'>Executive - SL0E</TEXT>
+		<RECTANGLE a='304.00000,24.00000' b='396.00000,56.00000' style='2' fill='0'/>
+		<RECTANGLE a='304.00000,24.00000' b='396.00000,28.00000' style='2' fill='0'/>
+		<TEXT pos='342.00000,28.00000' direction='3' font='3' color='000000'>Kernel - SL1k</TEXT>
+		<POLYGON pos='352.00000,28.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='0.00000,28.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='412.00000,24.00000' b='504.00000,56.00000' style='2' fill='0'/>
+		<RECTANGLE a='412.00000,24.00000' b='504.00000,28.00000' style='2' fill='0'/>
+		<TEXT pos='450.00000,28.00000' direction='3' font='3' color='000000'>Kernel Service - SL2K</TEXT>
+		<POLYGON pos='460.00000,28.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='0.00000,28.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='304.00000,66.00000' b='396.00000,98.00000' style='2' fill='0'/>
+		<RECTANGLE a='304.00000,66.00000' b='396.00000,70.00000' style='2' fill='0'/>
+		<TEXT pos='342.00000,70.00000' direction='3' font='3' color='000000'>Super User - SL3K</TEXT>
+		<POLYGON pos='352.00000,70.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='0.00000,28.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='412.00000,66.00000' b='504.00000,98.00000' style='2' fill='0'/>
+		<RECTANGLE a='412.00000,66.00000' b='504.00000,70.00000' style='2' fill='0'/>
+		<TEXT pos='450.00000,70.00000' direction='3' font='3' color='000000'>Admin - SL4U</TEXT>
+		<POLYGON pos='460.00000,70.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='0.00000,28.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='304.00000,108.00000' b='396.00000,140.00000' style='2' fill='0'/>
+		<RECTANGLE a='304.00000,108.00000' b='396.00000,112.00000' style='2' fill='0'/>
+		<TEXT pos='342.00000,112.00000' direction='3' font='3' color='000000'>User - SL5U</TEXT>
+		<POLYGON pos='352.00000,112.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='0.00000,28.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='34.00000,26.00000' b='90.00000,64.00000' style='2' fill='0'/>
+		<POLYGON pos='34.00000,30.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='56.00000,0.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='98.00000,26.00000' b='150.00000,64.00000' style='2' fill='0'/>
+		<POLYGON pos='98.00000,30.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='52.00000,0.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='164.00000,26.00000' b='206.00000,58.00000' style='2' fill='0'/>
+		<POLYGON pos='164.00000,30.00000' style='2' fill='0' polygon='0'>
+			<POINT pos='0.00000,0.00000' arc='0'/>
+			<POINT pos='42.00000,0.00000' arc='0'/>
+		</POLYGON>
+		<RECTANGLE a='58.00000,68.00000' b='100.00000,100.00000' style='2' fill='0'/>
+		<RECTANGLE a='136.00000,70.00000' b='178.00000,102.00000' style='2' fill='0'/>
+		<TEXT pos='148.00000,86.00000' direction='3' font='3' color='000000'>Data Structure</TEXT>
+		<TEXT pos='120.00000,30.00000' direction='3' font='3' color='000000'>Teletype</TEXT>
+		<TEXT pos='70.00000,86.00000' direction='3' font='3' color='000000'>Error Handler</TEXT>
+		<TEXT pos='42.00000,30.00000' direction='3' font='3' color='000000'>Upgrade Operations</TEXT>
+		<TEXT pos='176.00000,30.00000' direction='3' font='3' color='000000'>Disk Operations</TEXT>
+		<RECTANGLE a='36.00000,34.00000' b='56.00000,42.00000' style='2' fill='0'/>
+		<RECTANGLE a='64.00000,34.00000' b='84.00000,42.00000' style='2' fill='0'/>
+		<RECTANGLE a='64.00000,50.00000' b='86.00000,58.00000' style='2' fill='0'/>
+		<RECTANGLE a='36.00000,50.00000' b='56.00000,58.00000' style='2' fill='0'/>
+		<RECTANGLE a='116.00000,30.00000' b='136.00000,38.00000' style='2' fill='0'/>
+		<RECTANGLE a='116.00000,42.00000' b='136.00000,50.00000' style='2' fill='0'/>
+		<RECTANGLE a='114.00000,54.00000' b='136.00000,62.00000' style='2' fill='0'/>
+		<TEXT pos='120.00000,36.00000' direction='3' font='3' color='000000'>print_string</TEXT>
+		<TEXT pos='120.00000,48.00000' direction='3' font='3' color='000000'>print_loop</TEXT>
+		<TEXT pos='116.00000,58.00000' direction='3' font='3' color='000000'>print_character</TEXT>
+		<WIRE a='126.00000,38.00000' b='126.00000,40.00000'/>
+		<WIRE a='136.00000,46.00000' b='142.00000,46.00000'/>
+		<WIRE a='142.00000,46.00000' b='142.00000,58.00000'/>
+		<WIRE a='142.00000,58.00000' b='140.00000,58.00000'/>
+		<WIRE a='114.00000,58.00000' b='110.00000,58.00000'/>
+		<WIRE a='110.00000,58.00000' b='110.00000,48.00000'/>
+		<WIRE a='110.00000,48.00000' b='112.00000,48.00000'/>
+		<SYMBOL id='1' pos='116.00000,50.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='140.00000,60.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='128.00000,42.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='110.00000,52.00000' direction='1' font='4' color='208000' style='0'>Return</LABEL>
+		<LABEL pos='142.00000,56.00000' direction='0' font='4' color='208000' style='0'>Print Character</LABEL>
+		<TEXT pos='40.00000,40.00000' direction='3' font='3' color='000000'>A20_Test</TEXT>
+		<TEXT pos='66.00000,40.00000' direction='3' font='3' color='000000'>A20_Activate</TEXT>
+		<TEXT pos='38.00000,56.00000' direction='3' font='3' color='000000'>LONG_Test</TEXT>
+		<TEXT pos='66.00000,56.00000' direction='3' font='3' color='000000'>LONG_Activate</TEXT>
+		<RECTANGLE a='96.00000,104.00000' b='138.00000,136.00000' style='2' fill='0'/>
+		<WIRE a='56.00000,36.00000' b='60.00000,36.00000'/>
+		<TEXT pos='110.00000,120.00000' direction='3' font='3' color='000000'>Control Unit</TEXT>
+		<WIRE a='96.00000,122.00000' b='22.00000,122.00000'/>
+		<WIRE a='22.00000,122.00000' b='22.00000,18.00000'/>
+		<WIRE a='22.00000,18.00000' b='126.00000,18.00000'/>
+		<WIRE a='126.00000,18.00000' b='126.00000,22.00000'/>
+		<SYMBOL id='1' pos='128.00000,26.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='22.00000,78.00000' direction='3' font='4' color='208000' style='0'>Direct Print</LABEL>
+		<SYMBOL id='1' pos='64.00000,38.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='62.00000,36.00000' direction='2' font='4' color='208000' style='0'>A20 Activation</LABEL>
+		<WIRE a='62.00000,46.00000' b='62.00000,66.00000'/>
+		<WIRE a='62.00000,66.00000' b='102.00000,66.00000'/>
+		<WIRE a='102.00000,66.00000' b='102.00000,100.00000'/>
+		<LABEL pos='102.00000,82.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<WIRE a='96.00000,118.00000' b='26.00000,118.00000'/>
+		<WIRE a='26.00000,118.00000' b='26.00000,38.00000'/>
+		<WIRE a='26.00000,38.00000' b='32.00000,38.00000'/>
+		<LABEL pos='26.00000,76.00000' direction='3' font='4' color='208000' style='0'>A20 Activate</LABEL>
+		<SYMBOL id='1' pos='36.00000,40.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='104.00000,104.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='116.00000,46.00000' b='106.00000,46.00000'/>
+		<WIRE a='106.00000,46.00000' b='106.00000,100.00000'/>
+		<SYMBOL id='1' pos='108.00000,104.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='106.00000,82.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<WIRE a='74.00000,32.00000' b='94.00000,32.00000'/>
+		<WIRE a='94.00000,32.00000' b='94.00000,20.00000'/>
+		<WIRE a='94.00000,20.00000' b='122.00000,20.00000'/>
+		<SYMBOL id='1' pos='124.00000,26.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='46.00000,32.00000' b='46.00000,34.00000'/>
+		<WIRE a='74.00000,32.00000' b='74.00000,34.00000'/>
+		<WIRE a='46.00000,32.00000' b='74.00000,32.00000'/>
+		<WIRE a='116.00000,44.00000' b='92.00000,44.00000'/>
+		<WIRE a='92.00000,44.00000' b='92.00000,48.00000'/>
+		<SYMBOL id='1' pos='48.00000,46.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='74.00000,48.00000' b='46.00000,48.00000'/>
+		<WIRE a='46.00000,48.00000' b='46.00000,46.00000'/>
+		<LABEL pos='106.00000,44.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<SYMBOL id='1' pos='76.00000,46.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='74.00000,48.00000' b='74.00000,46.00000'/>
+		<WIRE a='92.00000,48.00000' b='74.00000,48.00000'/>
+		<RECTANGLE a='170.00000,34.00000' b='192.00000,42.00000' style='2' fill='0'/>
+		<RECTANGLE a='170.00000,46.00000' b='192.00000,54.00000' style='2' fill='0'/>
+		<TEXT pos='176.00000,40.00000' direction='3' font='3' color='000000'>disk_test</TEXT>
+		<TEXT pos='176.00000,52.00000' direction='3' font='3' color='000000'>read_disk</TEXT>
+		<WIRE a='96.00000,126.00000' b='18.00000,126.00000'/>
+		<WIRE a='18.00000,126.00000' b='18.00000,16.00000'/>
+		<WIRE a='18.00000,16.00000' b='160.00000,16.00000'/>
+		<WIRE a='160.00000,16.00000' b='160.00000,50.00000'/>
+		<SYMBOL id='1' pos='170.00000,40.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='18.00000,80.00000' direction='3' font='4' color='208000' style='0'>Read Disk</LABEL>
+		<JUNCTION pos='74.00000,32.00000'/>
+		<WIRE a='96.00000,130.00000' b='14.00000,130.00000'/>
+		<WIRE a='14.00000,130.00000' b='14.00000,14.00000'/>
+		<WIRE a='14.00000,14.00000' b='162.00000,14.00000'/>
+		<WIRE a='162.00000,14.00000' b='162.00000,38.00000'/>
+		<WIRE a='162.00000,38.00000' b='166.00000,38.00000'/>
+		<SYMBOL id='1' pos='170.00000,52.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='160.00000,50.00000' b='166.00000,50.00000'/>
+		<LABEL pos='14.00000,82.00000' direction='3' font='4' color='208000' style='0'>Disk Test</LABEL>
+		<WIRE a='182.00000,42.00000' b='182.00000,44.00000'/>
+		<WIRE a='182.00000,44.00000' b='194.00000,44.00000'/>
+		<WIRE a='182.00000,54.00000' b='182.00000,110.00000'/>
+		<WIRE a='182.00000,110.00000' b='142.00000,110.00000'/>
+		<WIRE a='194.00000,44.00000' b='194.00000,56.00000'/>
+		<WIRE a='194.00000,56.00000' b='184.00000,56.00000'/>
+		<WIRE a='184.00000,56.00000' b='184.00000,114.00000'/>
+		<WIRE a='184.00000,114.00000' b='142.00000,114.00000'/>
+		<SYMBOL id='1' pos='142.00000,112.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='142.00000,116.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='184.00000,68.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<LABEL pos='182.00000,72.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<WIRE a='64.00000,40.00000' b='60.00000,40.00000'/>
+		<SYMBOL id='1' pos='60.00000,42.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='60.00000,40.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<WIRE a='50.00000,42.00000' b='50.00000,46.00000'/>
+		<WIRE a='50.00000,46.00000' b='62.00000,46.00000'/>
+		<JUNCTION pos='74.00000,48.00000'/>
+		<WIRE a='96.00000,114.00000' b='30.00000,114.00000'/>
+		<WIRE a='30.00000,114.00000' b='30.00000,54.00000'/>
+		<SYMBOL id='1' pos='36.00000,56.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='30.00000,54.00000' b='32.00000,54.00000'/>
+		<WIRE a='60.00000,52.00000' b='64.00000,52.00000'/>
+		<WIRE a='86.00000,54.00000' b='96.00000,54.00000'/>
+		<WIRE a='96.00000,54.00000' b='96.00000,22.00000'/>
+		<WIRE a='122.00000,20.00000' b='122.00000,22.00000'/>
+		<WIRE a='96.00000,22.00000' b='118.00000,22.00000'/>
+		<SYMBOL id='1' pos='120.00000,26.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='116.00000,42.00000' b='102.00000,42.00000'/>
+		<WIRE a='102.00000,42.00000' b='102.00000,62.00000'/>
+		<WIRE a='78.00000,62.00000' b='46.00000,62.00000'/>
+		<JUNCTION pos='78.00000,62.00000'/>
+		<WIRE a='102.00000,62.00000' b='78.00000,62.00000'/>
+		<SYMBOL id='1' pos='80.00000,62.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='48.00000,62.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='106.00000,42.00000' direction='3' font='4' color='208000' style='0'>Return</LABEL>
+		<SYMBOL id='1' pos='60.00000,54.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='56.00000,56.00000' b='60.00000,56.00000'/>
+		<SYMBOL id='1' pos='64.00000,58.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='-4.00000,2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='60.00000,56.00000' direction='1' font='4' color='208000' style='0'>LONG Activation</LABEL>
+		<LABEL pos='60.00000,52.00000' direction='1' font='4' color='208000' style='0'>Return</LABEL>
+		<LABEL pos='30.00000,74.00000' direction='3' font='4' color='208000' style='0'>LONG Activate</LABEL>
+		<WIRE a='170.00000,42.00000' b='158.00000,42.00000'/>
+		<WIRE a='158.00000,42.00000' b='158.00000,20.00000'/>
+		<WIRE a='158.00000,20.00000' b='130.00000,20.00000'/>
+		<WIRE a='130.00000,20.00000' b='130.00000,22.00000'/>
+		<WIRE a='170.00000,54.00000' b='156.00000,54.00000'/>
+		<WIRE a='156.00000,54.00000' b='156.00000,22.00000'/>
+		<WIRE a='156.00000,22.00000' b='134.00000,22.00000'/>
+		<SYMBOL id='1' pos='132.00000,26.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='136.00000,26.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='C?' show='0' pos='1.00000,-2.00000'/>
+			<FIELD type='1' description='Name' value='CONTACT-POWER' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+	</TinyCAD>
+</TinyCADSheets>
