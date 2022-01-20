@@ -1,0 +1,126 @@
+carbonOS_0.1 - OS Creation - 9/30/19: 
+	Added Features:
+		N/A
+	Fixed Features:
+		N/A
+	Notes:
+		This is the first version of carbonOS. Not sure where this project is gonna go but we will see.
+		
+		I think I will begin working on implementing more system utilities to build some kind of base for the operating system to grow off of.
+
+carbonOS_0.2 - Utility Update - 11/11/19:
+	Added Features:
+		- Executive V1 Bootloader
+		- Global Descriptor Table
+		- Interrupt Descriptor Table
+		- Partumvis Kernel Service
+		- Human Input Device Management System (HIDMS )Kernel Service
+	Fixed Features:
+		- Kernel structure
+	Notes:
+		This version will have a restructured kernel for security, debugging and overall organizational purposes. 
+		Changes include:
+			1. Introduction of Security Levels (SL)
+				SL0E (Executive Level): Kernel Initialization and Setup
+				SL1K (Kernel Level): Memory Management 
+				SL2K (Kernel Service Level): System Interfaces
+				SL3K (Super User Level): User Land and Kernel Land communication
+				SL4U (Admin Level): Process Management
+				SL5U (User Level): Process Execution
+			2. Kernel Initializer TTY functionality will be moved to the Partumvis Kernel Service
+			
+		
+		This version will also have a GDT and IDT implemented into the kernel. Due to this the OS is going to need more then just a bootstrap to
+		initialize the kernel master so a custom bootloader will be developed and implemented.
+
+		The bootloader will be called executive due to its SL0E privilidge classification. 
+		Boot process:
+			1. Executive Bootloader:
+				1. Execute _init_executive function in real mode
+				2. Set processor into protected mode and clear registers
+				3. Do long jump to Master/Kernel Bootstrap
+			2. Master/Kernel Bootstrap:
+				4. Create a stack
+				5. Call kernal_main function
+				
+carbonOS_0.2.2 - Architecture Update - 11/18/19:
+	Added Features:
+		- LONG Mode 
+		- Protected Mode
+	Fixed Features:
+		- Restructured Bootloader
+		- Restructured Kernel
+	Notes:
+		1.	This version will fully implement the SL0E and start development of the SL1K levels.
+		
+		2.	Each level will consist of one control unit which acts as the manager of its set security levels utilities. In other words it is always the first and last
+			system to be used on that security level. Each control unit has a set of utilities which give the control unit its control over a certain aspect of the system.
+			For example if your on the SL3k level and the control unit needs to make a rectangle, the control unit will pass control to the utility that has control over the 
+			systems GUI. 
+		
+			Here are the two security protocols all utilities except SL0E utilities must follow:
+				a. 	All utilities except security utilities must act as passive as possible. Meaning when control is passed to the utility it must push all register values to the
+					stack and on exit it must return all values to the registers.
+				
+				b.	All utilities can only execute one of its functions at a time and said function found in SL2K and above cannot pass control to any other function other then when 
+					its returning to the control unit.
+		
+		3.	Due to space limitations information in Kernel levels will be displayed as four character long codes.
+			
+			Format:
+				CHARACTER 1 (1-9 or A-Z) - Identifies which utility is showing or causing the information.
+				CHARACTER 2 (1-3) - Identifies information type
+					1 - ERROR
+					2 - WARNING
+					3 - INFORMATION
+				CHARACTER 3-4 (1-9) - Specifier 
+		
+		4. ICA Memory Management will be implemented
+		
+			ICA stands for:
+				1. Identification
+				2. Content
+				3. Administration
+				
+			It is going to be the OS' main memory management system/algorithm 
+			
+			ICA API:
+				General:			
+				
+				Specified:
+					Registry:
+						Cache:	Cache data for the registry 5 bytes below registry start flag
+							
+								RAX: Page specifier
+			
+		
+		5.	Registry will be added for operating system SL2K utilities
+			
+			The registry will be found five bytes after registry_start subroutine which was placed to signal the end of the control unit.
+			
+			Registry Layout:
+				TABLE 1 - SECURITY:
+					SECTION 1 - STARTUP
+						RULE 1 - AUTH_HOLD (HOLD ENCRYPTED MASTER PASSWORD)
+						RULE 2 - AUTH_SET (SET PASSWORD)
+						RULE 3 - ENCRYPT_LOC (LOCATION OF ENCRYPTION SYSTEM)
+						RULE 4 - DECRYPT_LOC (LOCATION OF DECRYPTION SYSTEM)
+						
+					SECTION 2 - SHUTDOWN
+						RULE 1 - DEAUTH_LOC (LOCATION OF SL2K AND BELOW DEAUTHENTICATOR)
+						RULE 2 - ENCRYPT_LOC (LOCATION OF ENCRYPTION SYSTEM)
+						
+					SECTION 3 - RUNNING
+					
+carbonOS_0.2.3 - OS Creation - 9/30/19:
+
+						
+			
+
+		
+		
+		
+		
+		
+		
+		
